@@ -10,3 +10,6 @@
 
 
 效果：
+![image](https://github.com/GaiteSeven/FPGA_Virtual_oscilloscope/blob/master/image/1.jpg)
+![image](https://github.com/GaiteSeven/FPGA_Virtual_oscilloscope/blob/master/image/2.jpg)
+![image](https://github.com/GaiteSeven/FPGA_Virtual_oscilloscope/blob/master/image/3.jpg)
