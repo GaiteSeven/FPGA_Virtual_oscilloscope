@@ -1,0 +1,25 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/ip/Wave_Ram/sim/Wave_Ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Wave_Ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Clk_Division.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Clk_Division
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Driver_ADC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Driver_ADC
+INFO: [VRFC 10-2458] undeclared symbol vpp, assumed default net type wire [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Driver_ADC.v:94]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Driver_HDMI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Driver_HDMI
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Freq_Cal.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Freq_Cal
+WARNING: [VRFC 10-2581] 2147483648 as 32-bit signed integer overflows, using -2147483648 instead [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Freq_Cal.v:95]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/geneator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module geneator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/virtual_oscilloscope.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module virtual_oscilloscope
+INFO: [VRFC 10-2458] undeclared symbol signal_pulse_o, assumed default net type wire [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/virtual_oscilloscope.v:96]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/voltage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module voltage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench

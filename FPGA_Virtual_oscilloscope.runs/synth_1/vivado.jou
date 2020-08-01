@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Aug  1 10:41:02 2020
+# Process ID: 17880
+# Current directory: C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.runs/synth_1
+# Command line: vivado.exe -log virtual_oscilloscope.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source virtual_oscilloscope.tcl
+# Log file: C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.runs/synth_1/virtual_oscilloscope.vds
+# Journal file: C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source virtual_oscilloscope.tcl -notrace

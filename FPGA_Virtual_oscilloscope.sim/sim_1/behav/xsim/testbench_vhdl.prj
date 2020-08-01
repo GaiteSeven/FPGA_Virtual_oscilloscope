@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../FPGA_Virtual_oscilloscope.ip_user_files/ipstatic/src/ClockGen.vhd" \
+"../../../../FPGA_Virtual_oscilloscope.ip_user_files/ipstatic/src/SyncAsync.vhd" \
+"../../../../FPGA_Virtual_oscilloscope.ip_user_files/ipstatic/src/SyncAsyncReset.vhd" \
+"../../../../FPGA_Virtual_oscilloscope.ip_user_files/ipstatic/src/DVI_Constants.vhd" \
+"../../../../FPGA_Virtual_oscilloscope.ip_user_files/ipstatic/src/OutputSERDES.vhd" \
+"../../../../FPGA_Virtual_oscilloscope.ip_user_files/ipstatic/src/TMDS_Encoder.vhd" \
+"../../../../FPGA_Virtual_oscilloscope.ip_user_files/ipstatic/src/rgb2dvi.vhd" \
+"../../../../FPGA_Virtual_oscilloscope.srcs/sources_1/ip/rgb2dvi_0/sim/rgb2dvi_0.vhd" \
+
+# Do not sort compile order
+nosort

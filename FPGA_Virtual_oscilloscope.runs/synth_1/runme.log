@@ -1,0 +1,592 @@
+
+*** Running vivado
+    with args -log virtual_oscilloscope.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source virtual_oscilloscope.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source virtual_oscilloscope.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/11724/Desktop/test_ip/Frequency-Divider-IP'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/11724/Desktop/test_ip/ADC-IP'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/11724/Desktop/test_ip/HDMI-IP/IP'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado_2018_3/Vivado/2018.3/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.cache/ip 
+Command: synth_design -top virtual_oscilloscope -part xc7s15ftgb196-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7s15'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s15'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 13340 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 396.352 ; gain = 104.020
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'virtual_oscilloscope' [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/virtual_oscilloscope.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.runs/synth_1/.Xil/Vivado-17880-LAPTOP-EGPC0TEM/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.runs/synth_1/.Xil/Vivado-17880-LAPTOP-EGPC0TEM/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'rgb2dvi_0' [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.runs/synth_1/.Xil/Vivado-17880-LAPTOP-EGPC0TEM/realtime/rgb2dvi_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'rgb2dvi_0' (2#1) [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.runs/synth_1/.Xil/Vivado-17880-LAPTOP-EGPC0TEM/realtime/rgb2dvi_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Driver_HDMI' [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Driver_HDMI.v:25]
+	Parameter H_ACTIVE_1280_720 bound to: 16'b0000010100000000 
+	Parameter H_FP_1280_720 bound to: 16'b0000000001101110 
+	Parameter H_SYNC_1280_720 bound to: 16'b0000000000101000 
+	Parameter H_BP_1280_720 bound to: 16'b0000000011011100 
+	Parameter V_ACTIVE_1280_720 bound to: 16'b0000001011010000 
+	Parameter V_FP_1280_720 bound to: 16'b0000000000000101 
+	Parameter V_SYNC_1280_720 bound to: 16'b0000000000000101 
+	Parameter V_BP_1280_720 bound to: 16'b0000000000010100 
+	Parameter H_TOTAL_1280_720 bound to: 16'b0000011001110010 
+	Parameter V_TOTAL_1280_720 bound to: 16'b0000001011101110 
+	Parameter H_ACTIVE_1920_1080 bound to: 16'b0000011110000000 
+	Parameter H_FP_1920_1080 bound to: 16'b0000000001011000 
+	Parameter H_SYNC_1920_1080 bound to: 16'b0000000000101100 
+	Parameter H_BP_1920_1080 bound to: 16'b0000000010010100 
+	Parameter V_ACTIVE_1920_1080 bound to: 16'b0000010000111000 
+	Parameter V_FP_1920_1080 bound to: 16'b0000000000000100 
+	Parameter V_SYNC_1920_1080 bound to: 16'b0000000000000101 
+	Parameter V_BP_1920_1080 bound to: 16'b0000000000100100 
+	Parameter H_TOTAL_1920_1080 bound to: 16'b0000100010011000 
+	Parameter V_TOTAL_1920_1080 bound to: 16'b0000010001100101 
+INFO: [Synth 8-6155] done synthesizing module 'Driver_HDMI' (3#1) [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Driver_HDMI.v:25]
+INFO: [Synth 8-6157] synthesizing module 'Driver_ADC' [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Driver_ADC.v:23]
+	Parameter Sampling_Num bound to: 38400 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'Clk_Division' [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Clk_Division.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Clk_Division' (4#1) [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Clk_Division.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Freq_Cal' [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Freq_Cal.v:23]
+	Parameter Measure_Num bound to: 5 - type: integer 
+WARNING: [Synth 8-3936] Found unconnected internal register 'del_reg' and it is trimmed from '32' to '31' bits. [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Freq_Cal.v:81]
+INFO: [Synth 8-6155] done synthesizing module 'Freq_Cal' (5#1) [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Freq_Cal.v:23]
+WARNING: [Synth 8-689] width (18) of port connection 'Period' does not match port width (21) of module 'Freq_Cal' [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Driver_ADC.v:84]
+INFO: [Synth 8-6157] synthesizing module 'voltage' [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/voltage.v:23]
+WARNING: [Synth 8-5788] Register v_max_reg in module voltage is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/voltage.v:48]
+WARNING: [Synth 8-5788] Register v_min_reg in module voltage is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/voltage.v:49]
+INFO: [Synth 8-6155] done synthesizing module 'voltage' (6#1) [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/voltage.v:23]
+WARNING: [Synth 8-689] width (1) of port connection 'vpp' does not match port width (32) of module 'voltage' [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Driver_ADC.v:98]
+INFO: [Synth 8-6157] synthesizing module 'Wave_Ram' [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.runs/synth_1/.Xil/Vivado-17880-LAPTOP-EGPC0TEM/realtime/Wave_Ram_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Wave_Ram' (7#1) [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.runs/synth_1/.Xil/Vivado-17880-LAPTOP-EGPC0TEM/realtime/Wave_Ram_stub.v:6]
+WARNING: [Synth 8-689] width (18) of port connection 'addrb' does not match port width (16) of module 'Wave_Ram' [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Driver_ADC.v:119]
+WARNING: [Synth 8-5788] Register enb_reg in module Driver_ADC is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Driver_ADC.v:118]
+INFO: [Synth 8-6155] done synthesizing module 'Driver_ADC' (8#1) [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Driver_ADC.v:23]
+WARNING: [Synth 8-689] width (21) of port connection 'Period' does not match port width (18) of module 'Driver_ADC' [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/virtual_oscilloscope.v:101]
+INFO: [Synth 8-6157] synthesizing module 'generator' [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/generator.v:23]
+	Parameter s0 bound to: 2'b00 
+	Parameter s1 bound to: 2'b01 
+	Parameter s2 bound to: 2'b10 
+WARNING: [Synth 8-567] referenced signal 'Set_X' should be on the sensitivity list [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/generator.v:104]
+WARNING: [Synth 8-567] referenced signal 'Offset' should be on the sensitivity list [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/generator.v:104]
+WARNING: [Synth 8-567] referenced signal 'Set_Y' should be on the sensitivity list [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/generator.v:104]
+WARNING: [Synth 8-567] referenced signal 'ADC_Data_Out' should be on the sensitivity list [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/generator.v:104]
+INFO: [Synth 8-6155] done synthesizing module 'generator' (9#1) [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/generator.v:23]
+WARNING: [Synth 8-689] width (21) of port connection 'Offset' does not match port width (18) of module 'generator' [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/virtual_oscilloscope.v:115]
+INFO: [Synth 8-6157] synthesizing module 'wangge' [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/wangge.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'wangge' (10#1) [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/wangge.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'virtual_oscilloscope' (11#1) [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/virtual_oscilloscope.v:23]
+WARNING: [Synth 8-3331] design generator has unconnected port RGB_VDE
+WARNING: [Synth 8-3331] design generator has unconnected port clk_hdmi
+WARNING: [Synth 8-3331] design generator has unconnected port signal_pulse
+WARNING: [Synth 8-3331] design Driver_ADC has unconnected port Read_Addr[17]
+WARNING: [Synth 8-3331] design Driver_ADC has unconnected port Read_Addr[16]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 452.242 ; gain = 159.910
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 452.242 ; gain = 159.910
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 452.242 ; gain = 159.910
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7s15ftgb196-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_10'
+Finished Parsing XDC File [c:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_10'
+Parsing XDC File [c:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc] for cell 'rgb2dvi'
+Finished Parsing XDC File [c:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc] for cell 'rgb2dvi'
+Parsing XDC File [c:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/ip/Wave_Ram/Wave_Ram/Wave_Ram_in_context.xdc] for cell 'Driver_ADC0/Sampling_38400_0'
+Finished Parsing XDC File [c:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/ip/Wave_Ram/Wave_Ram/Wave_Ram_in_context.xdc] for cell 'Driver_ADC0/Sampling_38400_0'
+Parsing XDC File [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/constrs_1/new/system.xdc]
+WARNING: [Vivado 12-584] No ports matched 'key_fun'. [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/constrs_1/new/system.xdc:30]
+WARNING: [Vivado 12-584] No ports matched 'key_fun'. [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/constrs_1/new/system.xdc:32]
+Finished Parsing XDC File [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/constrs_1/new/system.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/constrs_1/new/system.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/virtual_oscilloscope_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/constrs_1/new/system.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/virtual_oscilloscope_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/virtual_oscilloscope_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 759.883 ; gain = 0.000
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 759.883 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 759.883 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 759.883 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'Driver_ADC0/Sampling_38400_0' at clock pin 'clkb' is different from the actual clock period '13.472', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 759.883 ; gain = 467.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7s15ftgb196-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 759.883 ; gain = 467.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk_100MHz. (constraint file  c:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk_100MHz. (constraint file  c:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 5).
+Applied set_property IO_BUFFER_TYPE = NONE for TMDS_Tx_Clk_N. (constraint file  c:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 1).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for TMDS_Tx_Clk_N. (constraint file  c:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 2).
+Applied set_property IO_BUFFER_TYPE = NONE for TMDS_Tx_Clk_P. (constraint file  c:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for TMDS_Tx_Clk_P. (constraint file  c:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 4).
+Applied set_property IO_BUFFER_TYPE = NONE for TMDS_Tx_Data_N[0]. (constraint file  c:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 5).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for TMDS_Tx_Data_N[0]. (constraint file  c:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 6).
+Applied set_property IO_BUFFER_TYPE = NONE for TMDS_Tx_Data_N[1]. (constraint file  c:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 7).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for TMDS_Tx_Data_N[1]. (constraint file  c:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 8).
+Applied set_property IO_BUFFER_TYPE = NONE for TMDS_Tx_Data_N[2]. (constraint file  c:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 9).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for TMDS_Tx_Data_N[2]. (constraint file  c:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 10).
+Applied set_property IO_BUFFER_TYPE = NONE for TMDS_Tx_Data_P[0]. (constraint file  c:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 11).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for TMDS_Tx_Data_P[0]. (constraint file  c:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 12).
+Applied set_property IO_BUFFER_TYPE = NONE for TMDS_Tx_Data_P[1]. (constraint file  c:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 13).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for TMDS_Tx_Data_P[1]. (constraint file  c:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 14).
+Applied set_property IO_BUFFER_TYPE = NONE for TMDS_Tx_Data_P[2]. (constraint file  c:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 15).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for TMDS_Tx_Data_P[2]. (constraint file  c:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0/rgb2dvi_0_in_context.xdc, line 16).
+Applied set_property DONT_TOUCH = true for clk_10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for rgb2dvi. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Driver_ADC0/Sampling_38400_0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 759.883 ; gain = 467.551
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "Measure_Delta_Clear" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'State_Current_reg' in module 'generator'
+INFO: [Synth 8-5544] ROM "Read_Addr" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "State_Next" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                      s0 |                              001 |                               00
+                      s1 |                              010 |                               01
+                      s2 |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'State_Current_reg' using encoding 'one-hot' in module 'generator'
+WARNING: [Synth 8-327] inferring latch for variable 'Read_Addr_reg' [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/generator.v:108]
+WARNING: [Synth 8-327] inferring latch for variable 'RGB_Data_reg' [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/generator.v:111]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 759.883 ; gain = 467.551
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 8     
+	   3 Input     32 Bit       Adders := 2     
+	   2 Input     20 Bit       Adders := 1     
+	   2 Input     18 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 1     
+	   5 Input     12 Bit       Adders := 1     
+	   3 Input     12 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 3     
+	   2 Input      8 Bit       Adders := 1     
+	   3 Input      7 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               31 Bit    Registers := 1     
+	               24 Bit    Registers := 1     
+	               21 Bit    Registers := 1     
+	               20 Bit    Registers := 1     
+	               16 Bit    Registers := 3     
+	               12 Bit    Registers := 2     
+	                1 Bit    Registers := 15    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     21 Bit        Muxes := 2     
+	   2 Input     20 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 4     
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      7 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 15    
+	   3 Input      1 Bit        Muxes := 3     
+	   4 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Driver_HDMI 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 5     
+	   3 Input     32 Bit       Adders := 1     
+	   5 Input     12 Bit       Adders := 1     
+	   3 Input     12 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
+	   3 Input      7 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	               12 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 4     
+Module Clk_Division 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Registers : 
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 3     
+Module Freq_Cal 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     20 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               31 Bit    Registers := 1     
+	               21 Bit    Registers := 1     
+	               20 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     21 Bit        Muxes := 2     
+	   2 Input     20 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module voltage 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 2     
+Module Driver_ADC 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+Module generator 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     18 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 3     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+Module wangge 
+Detailed RTL Component Info : 
++---Registers : 
+	               24 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 20 (col length:20)
+BRAMs: 20 (col length: RAMB18 20 RAMB36 10)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "Measure_Delta_Clear" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-4471] merging register 'signal_pulse_dly_reg' into 'u_voltage/signal_pulse_dly_reg' [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Driver_ADC.v:126]
+WARNING: [Synth 8-3331] design generator has unconnected port RGB_VDE
+WARNING: [Synth 8-3331] design generator has unconnected port clk_hdmi
+WARNING: [Synth 8-3331] design generator has unconnected port signal_pulse
+WARNING: [Synth 8-3331] design Driver_ADC has unconnected port Read_Addr[17]
+WARNING: [Synth 8-3331] design Driver_ADC has unconnected port Read_Addr[16]
+INFO: [Synth 8-3886] merging instance 'u_generator/RGB_Data_reg[0]' (LD) to 'u_generator/RGB_Data_reg[1]'
+INFO: [Synth 8-3886] merging instance 'u_generator/RGB_Data_reg[1]' (LD) to 'u_generator/RGB_Data_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u_generator/RGB_Data_reg[2]' (LD) to 'u_generator/RGB_Data_reg[3]'
+INFO: [Synth 8-3886] merging instance 'u_generator/RGB_Data_reg[3]' (LD) to 'u_generator/RGB_Data_reg[4]'
+INFO: [Synth 8-3886] merging instance 'u_generator/RGB_Data_reg[4]' (LD) to 'u_generator/RGB_Data_reg[5]'
+INFO: [Synth 8-3886] merging instance 'u_generator/RGB_Data_reg[5]' (LD) to 'u_generator/RGB_Data_reg[6]'
+INFO: [Synth 8-3886] merging instance 'u_generator/RGB_Data_reg[6]' (LD) to 'u_generator/RGB_Data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'u_generator/RGB_Data_reg[7]' (LD) to 'u_generator/RGB_Data_reg[8]'
+INFO: [Synth 8-3886] merging instance 'u_generator/RGB_Data_reg[8]' (LD) to 'u_generator/RGB_Data_reg[9]'
+INFO: [Synth 8-3886] merging instance 'u_generator/RGB_Data_reg[9]' (LD) to 'u_generator/RGB_Data_reg[10]'
+INFO: [Synth 8-3886] merging instance 'u_generator/RGB_Data_reg[10]' (LD) to 'u_generator/RGB_Data_reg[11]'
+INFO: [Synth 8-3886] merging instance 'u_generator/RGB_Data_reg[11]' (LD) to 'u_generator/RGB_Data_reg[12]'
+INFO: [Synth 8-3886] merging instance 'u_generator/RGB_Data_reg[12]' (LD) to 'u_generator/RGB_Data_reg[13]'
+INFO: [Synth 8-3886] merging instance 'u_generator/RGB_Data_reg[13]' (LD) to 'u_generator/RGB_Data_reg[14]'
+INFO: [Synth 8-3886] merging instance 'u_generator/RGB_Data_reg[14]' (LD) to 'u_generator/RGB_Data_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_generator/RGB_Data_reg[16]' (LD) to 'u_generator/RGB_Data_reg[17]'
+INFO: [Synth 8-3886] merging instance 'u_generator/RGB_Data_reg[17]' (LD) to 'u_generator/RGB_Data_reg[18]'
+INFO: [Synth 8-3886] merging instance 'u_generator/RGB_Data_reg[18]' (LD) to 'u_generator/RGB_Data_reg[19]'
+INFO: [Synth 8-3886] merging instance 'u_generator/RGB_Data_reg[19]' (LD) to 'u_generator/RGB_Data_reg[20]'
+INFO: [Synth 8-3886] merging instance 'u_generator/RGB_Data_reg[20]' (LD) to 'u_generator/RGB_Data_reg[21]'
+INFO: [Synth 8-3886] merging instance 'u_generator/RGB_Data_reg[21]' (LD) to 'u_generator/RGB_Data_reg[22]'
+INFO: [Synth 8-3886] merging instance 'u_generator/RGB_Data_reg[22]' (LD) to 'u_generator/RGB_Data_reg[23]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_generator/RGB_Data_reg[23] )
+INFO: [Synth 8-3886] merging instance 'u_wangge/rgbout_reg[0]' (FDS) to 'u_wangge/rgbout_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_wangge/rgbout_reg[1]' (FDS) to 'u_wangge/rgbout_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_wangge/rgbout_reg[2]' (FDS) to 'u_wangge/rgbout_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_wangge/rgbout_reg[3]' (FDS) to 'u_wangge/rgbout_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_wangge/rgbout_reg[4]' (FDS) to 'u_wangge/rgbout_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_wangge/rgbout_reg[5]' (FDS) to 'u_wangge/rgbout_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_wangge/rgbout_reg[6]' (FDS) to 'u_wangge/rgbout_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_wangge/rgbout_reg[7]' (FDS) to 'u_wangge/rgbout_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_wangge/rgbout_reg[8]' (FDS) to 'u_wangge/rgbout_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_wangge/rgbout_reg[9]' (FDS) to 'u_wangge/rgbout_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_wangge/rgbout_reg[10]' (FDS) to 'u_wangge/rgbout_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_wangge/rgbout_reg[11]' (FDS) to 'u_wangge/rgbout_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_wangge/rgbout_reg[12]' (FDS) to 'u_wangge/rgbout_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_wangge/rgbout_reg[13]' (FDS) to 'u_wangge/rgbout_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_wangge/rgbout_reg[14]' (FDS) to 'u_wangge/rgbout_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_wangge/rgbout_reg[16]' (FDS) to 'u_wangge/rgbout_reg[23]'
+INFO: [Synth 8-3886] merging instance 'u_wangge/rgbout_reg[17]' (FDS) to 'u_wangge/rgbout_reg[23]'
+INFO: [Synth 8-3886] merging instance 'u_wangge/rgbout_reg[18]' (FDS) to 'u_wangge/rgbout_reg[23]'
+INFO: [Synth 8-3886] merging instance 'u_wangge/rgbout_reg[19]' (FDS) to 'u_wangge/rgbout_reg[23]'
+INFO: [Synth 8-3886] merging instance 'u_wangge/rgbout_reg[20]' (FDS) to 'u_wangge/rgbout_reg[23]'
+INFO: [Synth 8-3886] merging instance 'u_wangge/rgbout_reg[21]' (FDS) to 'u_wangge/rgbout_reg[23]'
+INFO: [Synth 8-3886] merging instance 'u_wangge/rgbout_reg[22]' (FDS) to 'u_wangge/rgbout_reg[23]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Driver_ADC0/Clk_Division_ADC/Is_Odd_reg )
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'Driver_ADC0/Freq_Cal0/frequency_reg[31]/Q' [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Freq_Cal.v:95]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Freq_Cal.v:95]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Freq_Cal.v:95]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'Driver_ADC0/Freq_Cal0/frequency_reg[30]/Q' [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Freq_Cal.v:95]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Freq_Cal.v:95]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Freq_Cal.v:95]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'Driver_ADC0/Freq_Cal0/frequency_reg[29]/Q' [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Freq_Cal.v:95]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Freq_Cal.v:95]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Freq_Cal.v:95]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'Driver_ADC0/Freq_Cal0/frequency_reg[28]/Q' [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Freq_Cal.v:95]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Freq_Cal.v:95]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Freq_Cal.v:95]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'Driver_ADC0/Freq_Cal0/frequency_reg[27]/Q' [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Freq_Cal.v:95]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Freq_Cal.v:95]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Freq_Cal.v:95]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'Driver_ADC0/Freq_Cal0/frequency_reg[26]/Q' [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Freq_Cal.v:95]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Freq_Cal.v:95]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.srcs/sources_1/new/Freq_Cal.v:95]
+WARNING: [Synth 8-3332] Sequential element (u_generator/Read_Addr_reg[17]) is unused and will be removed from module virtual_oscilloscope.
+WARNING: [Synth 8-3332] Sequential element (u_generator/Read_Addr_reg[16]) is unused and will be removed from module virtual_oscilloscope.
+WARNING: [Synth 8-3332] Sequential element (u_generator/RGB_Data_reg[23]) is unused and will be removed from module virtual_oscilloscope.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 759.883 ; gain = 467.551
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'clk_10/clk_out1' to pin 'clk_10/bbstub_clk_out1/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'clk_10/clk_out2' to pin 'clk_10/bbstub_clk_out2/O'
+INFO: [Synth 8-5819] Moved 2 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 759.883 ; gain = 467.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 773.164 ; gain = 480.832
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 773.164 ; gain = 480.832
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 773.164 ; gain = 480.832
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 773.164 ; gain = 480.832
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 773.164 ; gain = 480.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 773.164 ; gain = 480.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 773.164 ; gain = 480.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 773.164 ; gain = 480.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz_0     |         1|
+|2     |rgb2dvi_0     |         1|
+|3     |Wave_Ram      |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |Wave_Ram  |     1|
+|2     |clk_wiz_0 |     1|
+|3     |rgb2dvi_0 |     1|
+|4     |BUFG      |     2|
+|5     |CARRY4    |   145|
+|6     |LUT1      |    30|
+|7     |LUT2      |   288|
+|8     |LUT3      |   190|
+|9     |LUT4      |   136|
+|10    |LUT5      |    78|
+|11    |LUT6      |    89|
+|12    |FDCE      |    34|
+|13    |FDPE      |     1|
+|14    |FDRE      |   213|
+|15    |LD        |    17|
+|16    |IBUF      |    10|
+|17    |OBUF      |     2|
++------+----------+------+
+
+Report Instance Areas: 
++------+---------------------+-------------+------+
+|      |Instance             |Module       |Cells |
++------+---------------------+-------------+------+
+|1     |top                  |             |  1253|
+|2     |  Driver_ADC0        |Driver_ADC   |   978|
+|3     |    Clk_Division_ADC |Clk_Division |    57|
+|4     |    Freq_Cal0        |Freq_Cal     |   801|
+|5     |    u_voltage        |voltage      |     2|
+|6     |  Driver_HDMI0       |Driver_HDMI  |   209|
+|7     |  u_generator        |generator    |    40|
+|8     |  u_wangge           |wangge       |     2|
++------+---------------------+-------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 773.164 ; gain = 480.832
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 18 critical warnings and 10 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 773.164 ; gain = 173.191
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 773.164 ; gain = 480.832
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 162 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 773.164 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 17 instances were transformed.
+  LD => LDCE: 17 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+95 Infos, 33 Warnings, 18 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 773.164 ; gain = 492.688
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 773.164 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.runs/synth_1/virtual_oscilloscope.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file virtual_oscilloscope_utilization_synth.rpt -pb virtual_oscilloscope_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Aug  1 10:41:31 2020...

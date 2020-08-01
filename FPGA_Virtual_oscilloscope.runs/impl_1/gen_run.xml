@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7s15ftgb196-1" LaunchTime="1596249657">
+  <File Type="BITSTR-BMM" Name="virtual_oscilloscope_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="virtual_oscilloscope_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="virtual_oscilloscope_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="virtual_oscilloscope_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="virtual_oscilloscope.tcl"/>
+  <File Type="OPT-TIMING" Name="virtual_oscilloscope_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="virtual_oscilloscope_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="virtual_oscilloscope_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="virtual_oscilloscope_reports.tcl"/>
+  <File Type="OPT-DRC" Name="virtual_oscilloscope_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="virtual_oscilloscope.hwdef"/>
+  <File Type="PWROPT-DCP" Name="virtual_oscilloscope_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="virtual_oscilloscope_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="virtual_oscilloscope_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="virtual_oscilloscope_placed.dcp"/>
+  <File Type="PLACE-IO" Name="virtual_oscilloscope_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="virtual_oscilloscope_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="virtual_oscilloscope_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="virtual_oscilloscope_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="virtual_oscilloscope_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="virtual_oscilloscope_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="virtual_oscilloscope_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="virtual_oscilloscope.bgn"/>
+  <File Type="PLACE-TIMING" Name="virtual_oscilloscope_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="virtual_oscilloscope_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="virtual_oscilloscope.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="virtual_oscilloscope_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="virtual_oscilloscope_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="virtual_oscilloscope_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="virtual_oscilloscope.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="virtual_oscilloscope_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="virtual_oscilloscope_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="virtual_oscilloscope_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="virtual_oscilloscope_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="virtual_oscilloscope_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="virtual_oscilloscope_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="virtual_oscilloscope.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="virtual_oscilloscope_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="virtual_oscilloscope.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="virtual_oscilloscope_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="virtual_oscilloscope_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="virtual_oscilloscope.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="virtual_oscilloscope_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="virtual_oscilloscope_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="virtual_oscilloscope_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="virtual_oscilloscope_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="virtual_oscilloscope_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="virtual_oscilloscope_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="virtual_oscilloscope_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="virtual_oscilloscope_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="virtual_oscilloscope_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="virtual_oscilloscope_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="virtual_oscilloscope_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="virtual_oscilloscope_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="virtual_oscilloscope_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="virtual_oscilloscope_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="virtual_oscilloscope_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="virtual_oscilloscope_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="virtual_oscilloscope_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="virtual_oscilloscope_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="virtual_oscilloscope_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="virtual_oscilloscope.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="virtual_oscilloscope_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="virtual_oscilloscope.rbt"/>
+  <File Type="BITSTR-NKY" Name="virtual_oscilloscope.nky"/>
+  <File Type="BG-DRC" Name="virtual_oscilloscope.drc"/>
+  <File Type="RDI-RDI" Name="virtual_oscilloscope.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Clk_Division.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Driver_ADC.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Driver_HDMI.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Freq_Cal.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/generator.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/voltage.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/wangge.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/virtual_oscilloscope.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="virtual_oscilloscope"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/system.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/system.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="rgb2dvi_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Wave_Ram"/>
+</GenRun>

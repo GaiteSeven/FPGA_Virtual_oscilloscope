@@ -1,0 +1,164 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+Block Memory Generator module testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 5 ns  Iteration: 2  Process: /testbench/test/rgb2dvi/U0/\DataEncoders(0)\/DataEncoder/line__154  File: C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.ip_user_files/ipstatic/src/TMDS_Encoder.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 5 ns  Iteration: 2  Process: /testbench/test/rgb2dvi/U0/\DataEncoders(1)\/DataEncoder/line__154  File: C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.ip_user_files/ipstatic/src/TMDS_Encoder.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 5 ns  Iteration: 2  Process: /testbench/test/rgb2dvi/U0/\DataEncoders(2)\/DataEncoder/line__154  File: C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.ip_user_files/ipstatic/src/TMDS_Encoder.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 335 ns  Iteration: 3  Process: /testbench/test/rgb2dvi/U0/\DataEncoders(0)\/DataEncoder/line__154  File: C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.ip_user_files/ipstatic/src/TMDS_Encoder.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 335 ns  Iteration: 3  Process: /testbench/test/rgb2dvi/U0/\DataEncoders(1)\/DataEncoder/line__154  File: C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.ip_user_files/ipstatic/src/TMDS_Encoder.vhd
+Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Time: 335 ns  Iteration: 3  Process: /testbench/test/rgb2dvi/U0/\DataEncoders(2)\/DataEncoder/line__154  File: C:/Users/11724/Desktop/fpga_exercise/FPGA_Virtual_oscilloscope/FPGA_Virtual_oscilloscope.ip_user_files/ipstatic/src/TMDS_Encoder.vhd
+blk_mem_gen_v8_4_2 collision detected at time: 1318472, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1331944, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1345416, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1358888, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1372361, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1385833, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1399305, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1412777, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1426249, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1439721, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1453193, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1466665, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1480138, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1493610, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1507082, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1520555, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1534027, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1547499, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1560971, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1574443, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1587916, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1601388, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1614860, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1628333, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1641805, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1655277, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1668749, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1682221, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1695694, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1709166, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1722638, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1736111, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1749583, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1763055, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1776527, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1789999, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1803472, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1816944, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1830416, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1843888, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1857360, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1870832, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1884304, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1897776, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1911249, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1924721, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1938193, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1951666, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1965138, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1978610, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 1992082, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2005554, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2019027, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2032499, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2045971, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2059444, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2072916, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2086388, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2099860, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2113332, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2126805, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2140277, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2153749, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2167222, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2180694, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2194166, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2207638, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2221110, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2234583, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2248055, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2261527, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2275000, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2288472, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2301944, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2315416, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2328888, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2342361, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2355833, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2369305, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2382777, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2396249, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2409721, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2423193, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2436665, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2450138, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2463610, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2477082, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2490555, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2504027, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2517499, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2530971, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2544443, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2557916, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2571388, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2584860, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2598333, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2611805, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2625277, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2638749, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2652221, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2665694, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2679166, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2692638, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2706111, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2719583, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2733055, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2746527, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2759999, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2773472, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2786944, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2800416, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2813888, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2827360, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2840832, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2854304, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2867776, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2881249, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2894721, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2908193, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2921666, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2935138, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2948610, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2962082, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2975554, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 2989027, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 3002499, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 3015971, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 3029444, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 3042916, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 3056388, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 3069860, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 3083332, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 3096805, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 3110277, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 3123749, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 3137222, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 3150694, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 3164166, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 3177638, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 3191110, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 3204583, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 3218055, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 3231527, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 3245000, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 3258472, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 3271944, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 3285416, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 3298888, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_2 collision detected at time: 3312361, Instance: testbench.test.Driver_ADC0.Sampling_38400_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 1, B  read address: 1
